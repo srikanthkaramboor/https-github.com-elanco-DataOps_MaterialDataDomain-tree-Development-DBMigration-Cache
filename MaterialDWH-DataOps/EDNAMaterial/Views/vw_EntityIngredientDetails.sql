@@ -1,0 +1,18 @@
+﻿
+CREATE VIEW [EDNAMaterial].[vw_EntityIngredientDetails]
+AS SELECT 
+         [EntityID]
+		,[Material_Code]
+		,[Family_Item_ID]
+		,[Country_Code]
+		,[Language_Code]
+		,[Common_Name]
+		,[Manufacturer]
+		,[Revision_Date]
+		,[Internal_ID]
+		,[CAS]
+		,[Ingredient]
+		,[Contribution]
+		,[Active_Status]
+		,[LastUpdated]
+  FROM [EDNAMaterial].[Material_Ingredients]

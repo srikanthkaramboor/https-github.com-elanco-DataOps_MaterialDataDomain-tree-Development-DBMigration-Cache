@@ -1,0 +1,17 @@
+﻿CREATE VIEW [EDNAMaterial].[vw_EntityClassificationDetails]  
+AS SELECT 
+   EntityID
+  ,[Material_Code]  
+  ,[Family_Item_ID]  
+  ,[Language_Code]  
+  ,[Common_Name]  
+  ,[Revision_Date]  
+  ,[Manufacturer]  
+  ,[Internal_ID]  
+  ,[Country_Code]  
+  ,[Class_Category]  
+  ,[Class_Code]  
+  ,[Class_Short_Description]  
+  ,[Active_Status]  
+  ,[LastUpdated]
+  FROM [EDNAMaterial].[Material_Classification]  
